@@ -11,6 +11,7 @@ import HowToPlan from "./pages/HowToPlan";
 import HowToPrepare from "./pages/HowToPrepare";
 import HowToGetInfo from "./pages/HowToGetInfo";
 import QA from "./pages/QA";
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path='/pre-trip/how-to-get-info' element= {<HowToGetInfo />} />
           </Route>
           <Route path='/qa' element= {<QA />} />
+          <Route path='*' element= {<NotFound />} />
         </Routes>
     </div>
       )
