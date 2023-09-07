@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 const PreTrip = () => {
   return(
-    <div>
+    <div className="p-2">
       <nav>
         <ul>
           <li><Link to='/pre-trip/how-to-plan'>How To Plan</Link></li>
