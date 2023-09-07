@@ -17,7 +17,6 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <div className="App">
-      <h2 className="bg-gray-800">Les chemins de compostelle</h2>
         <Header />
         {/* 不可與其他元件包在一起，只能包 <Route> */}
         <Routes>
